@@ -28,3 +28,6 @@
 // - Om alla steg gick bra ska det i ServeCoffeeToGuest returneras ett Coffee-objekt med IsDone satt till true.
 //   Men det gick fel någonstans ska IsDone vara false när det returneras, och vi ska printa ut var felet uppstod.
 
+CoffeeMaker coffeeMaker = new();
+coffeeMaker.MakeCoffee();
+
