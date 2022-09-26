@@ -26,4 +26,5 @@
 // - Ge varje steg ovan en 20% risk att misslyckas genom new Random().Next();
 // - Om ett steg misslyckades ska det sparas en sträng i FailedStep-propertyn på Coffee-objektet om var det gick snett
 // - Om alla steg gick bra ska det i ServeCoffeeToGuest returneras ett Coffee-objekt med IsDone satt till true.
-//   Men det gick fel någonstans ska IsDone vara false när det returneras, och vi ska printa ut var felet uppstod
+//   Men det gick fel någonstans ska IsDone vara false när det returneras, och vi ska printa ut var felet uppstod.
+
